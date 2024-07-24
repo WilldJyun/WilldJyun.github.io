@@ -1,3 +1,11 @@
+permalink: /
+title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 # Akina Yuu 明奈悠的个人主页
 欢迎你来呀呀呀
 
