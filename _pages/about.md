@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Akina Yuu 明奈悠的个人主页"
 author_profile: true
 redirect_from: 
   - /about/
@@ -48,7 +48,7 @@ For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
 
-# Akina Yuu 明奈悠的个人主页
+
 欢迎你来呀呀呀
 
 ---
