@@ -1,30 +1,113 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-    <title>原神</title>
-    <head>
-        <style>
-            body {
-                background-image: url('pic/mk.jpg');
-                background-repeat: repeat-x ;
-                text-align: center;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>Akina Sumi</h1>
-        <p>这是一个网站</p>
-        <p>只能把你带到一个🔞游戏去</p>
-        <div style="font-size: 38px;font-weight: bold ;">
-            <a href="https://ys.mihoyo.com">🔞点我即刻享受🔞</a>
-        </div>
-        <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyun的小站</title>
+    <style>
+        /* 页面整体样式 */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            background-image: url('pic/mk.jpg');
+            background-repeat: repeat-x;
+            background-size: cover;
+        }
+        /* 标题样式 */
+        h1 {
+            font-size: 36px;
+            text-shadow: 1px 1px 2px gray;
+            color: #000000;
+            margin-top: 25px;
+        }
+        /* 段落样式 */
+        p {
+            font-size: 24px;
+            text-align: left;
+            max-width: 800px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+        /* 链接按钮样式 */
+        .button {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            margin: 20px;
+            border-radius: 5px;
+            font-size: 24px;
+            transition: background-color 0.4s ease;
+        }
+        .button:hover {
+            background-color: #ffffff;
+        }
+        /* 导航菜单样式 */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 40px 0;
+            background-color: #6cf;
+            opacity: 0.8;
+        }
+        li {
+            display:-ms-flexbox;
+            margin-right: 20px;
+            padding: 5px 1px;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+            font-size: 20px;
+        }
+        /* 分割线样式 */
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #39C5FF;
+            margin: 40px 0;
+        }
+        /* 响应式设计 */
+        @media (max-width: 600px) {
             p {
-                text-align: left;
+                font-size: 18px;
             }
-            a {
-                text-align: right;
+            .button {
+                font-size: 18px;
+                padding: 10px 20px;
             }
-        </style>
-    </body>
-    
+            li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1><i>Akina Sumi</i></h1>
+    <h2><b>Jyun的小站</b></h2>
+    <hr>
+    <p>这是一个网站</p>
+    <p>能把你带到一个🔞游戏去</p>
+    <div>
+        <a href="https://ys.mihoyo.com" class="button">
+            🔞点我即刻享受🔞
+            <style>
+            a:hover {
+                color: #ff0000;
+                transition: 0.3s ease;
+            </style>
+        </a>
+    </div>
+    <ul>
+        <li><a href="studyfiles.html">下载学习资料</a></li>
+        <li></li>
+        <li><a href="diary.html" style="font-size: small;">偷看Jyun的日记本</a></li>
+        <li><a href="develog.html" style="font-size: small;">看看Jyun的开发计划</a></li>
+    </ul>
+</body>
 </html>

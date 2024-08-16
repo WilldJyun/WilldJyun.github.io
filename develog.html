@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section#todos article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+section#todos article input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+section#add-todo form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#add-todo form label {
+    margin-bottom: 5px;
+}
+
+section#add-todo form input {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待办事项列表</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>我的待办事项列表</h1>
+    </header>
+    <main>
+        <section id="todos">
+            <article>
+                <input type="checkbox" id="todo1" checked disabled>
+                <label for="todo1">我 还 没 想 好</label>
+            </article>
+            <article>
+                <input type="checkbox" id="todo2" disabled>
+                <label for="todo2">我 还 没 想 好</label>
+            </article>
+        </section>
+        <section id="add-todo">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jyun  (AI Powered)</p>
+    </footer>
+</body>
+</html>

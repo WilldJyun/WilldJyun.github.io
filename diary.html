@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    background-image: url('pic/mk.jpg');
+    background-repeat: repeat-x;
+    background-size: cover;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section#entries article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+section#entries article h2 {
+    margin-top: 0;
+}
+
+section#add-entry form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#add-entry form label {
+    margin-bottom: 5px;
+}
+
+section#add-entry form input,
+section#add-entry form textarea {
+    margin-bottom: 10px;
+}
+
+footer {
+    color: #39C5FF;
+    text-align: center;
+    padding: 10px 20px;
+    text-shadow: 1px 1px 1px gray;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日记本</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Jyun's Diary</h1>
+        <nav>
+            <ul>
+                <li><a href="#add-entry">夏芒日记</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="entries">
+            <article>
+                <h2>2024-08-16</h2>
+                <p>初步开发完成了基于Github Page的
+                <br>自己的<b>个人主页</b>！！🥳
+                <br>index页是自己查阅慢慢写的，这个日记页的主要框架就让AI生成了（结果ai生产的好像比我写的好看。。）
+            <br>拖了那么久也总算是完成了，日后有服务器就挂载上去，那时候再学些后端搞个自己的文件服务器吧</p>
+            </article>
+            <article>
+                <h2>2024-07-18</h2>
+                <p>今天确定了要建一个网站！</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jyun  (AI Powered)</p>
+    </footer>
+</body>
+</html>
